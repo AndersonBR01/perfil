@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-cyan: hsl(185, 75% 39%);
+    --very-dark-destaurated-blue: hsl(229, 23%, 23%);
+    --dark-grayesh-blue: hsl(227, 10%, 46);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+body{
+    background: url(../image/bg-pattern-bottom.svg ) bottom -660px right -150px no-repeat,
+    url(../image/bg-pattern-top.svg) top -500px left -200px no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.card{
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0.05rem 0.1rem -0.03rem rgba(0, 0 ,0, 0.45);
+}
+
+.img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
